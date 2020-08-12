@@ -1,0 +1,22 @@
+a{
+    font-family: "Montserrat", sans-serif;
+    font-size: .85rem;
+    display: block;
+    color: #1e1e1e;
+    font-weight: 600;
+    letter-spacing: .6px;
+    text-decoration: none;
+}
+
+.section-home-page{
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    
+}
+#tsparticles {
+    width: 100%;
+    height: 100vh;
+   
+    
+    }
