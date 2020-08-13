@@ -5,6 +5,7 @@ export default function Header() {
         <div className="section-header">
             <ul>
                 <li><a href="# ">Inicio</a></li>
+                <li><a href="# ">Habilidades</a></li>
                 <li><a href="# ">Tecnologías</a></li>
                 <li><a href="# ">Proyectos</a></li>
                 <li><a href="# ">Contacto</a></li>

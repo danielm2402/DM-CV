@@ -8,15 +8,61 @@ a{
     text-decoration: none;
 }
 
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: .3px;
+    color: #494949;
+}
+h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: .3px;
+    color: #730C94;
+    background: -webkit-linear-gradient(#730C94,#D487BA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      
+}
+p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    color: #494949;
+    padding: .5rem 0;
+}
 .section-home-page{
     width: 100%;
-    height: 100vh;
+    height: auto;
     overflow-y: auto;
+    
+}
+.section-home-header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.section-home-skills{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../img/bg3.png');
+
+}
+.container-home-information{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
     
 }
 #tsparticles {
     width: 100%;
     height: 100vh;
-   
+   position: absolute;
+  z-index: -2;
     
     }
