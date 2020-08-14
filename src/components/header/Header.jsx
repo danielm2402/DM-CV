@@ -1,8 +1,8 @@
 import React from 'react'
 import './Header.css'
-export default function Header() {
+export default function Header({animated}) {
     return (
-        <div className="section-header">
+        <div className={animated?"section-header-animated":"section-header-normal"}>
             <ul>
                 <li><a href="# ">Inicio</a></li>
                 <li><a href="# ">Habilidades</a></li>

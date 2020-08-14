@@ -1,0 +1,33 @@
+.section-carousel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+  
+}
+.container-carousel{
+    width: 50%;
+    height: 100%;
+    
+}
+.carousel-item{
+    width: 100%;
+    height: 70vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.element-slider{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    align-items: center;
+}
+.element-slider img{
+    width: 110px;
+    height: 100px;
+   
+}
