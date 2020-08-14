@@ -3,6 +3,7 @@ import Header from '../../components/header/Header'
 import Information from '../../components/generalInformation/Information'
 import CarouselSkills from '../../components/skills/Skills'
 import CarouselTechnologies from '../../components/technologies/Technologies'
+import Projects from '../../components/projects/Projects'
 import useWindowSize from '../../hooks/useWindowSize'
 import Particles from 'react-particles-js';
 import './Home.css'
@@ -100,6 +101,9 @@ export default function Home() {
             </div>
             <div className="section-home-technologies">
                     <CarouselTechnologies/>
+            </div>
+            <div className="section-home-projects">
+                <Projects/>
             </div>
 
         </div>

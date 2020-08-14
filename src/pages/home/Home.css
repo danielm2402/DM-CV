@@ -53,9 +53,14 @@ p{
     width: 100%;
     height: 70vh;
     
-   background-color: #ffffff
+   background-color: #F8F8F8
   
 
+}
+.section-home-projects{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
 }
 .container-home-information{
     width: 100%;

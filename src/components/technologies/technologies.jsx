@@ -113,8 +113,8 @@ export default function Technologies() {
                                 <p>Android</p>
                             </div>
                             <div className="element-slider">
-                                <img style={{ height: '80px', width:'120px' }} src={ios}></img>
-                                <p>iOS</p>
+                                <img src={ios}></img>
+                                <p>Git</p>
                             </div>
 
                         </div>
